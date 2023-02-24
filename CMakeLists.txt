@@ -13,8 +13,9 @@ add_executable(example
     "src/main.cpp"
 )
 target_compile_features(example PUBLIC
-    cxx_std_17
+    cxx_std_20
 )
 target_link_libraries(example PUBLIC
     glfw
+    d3d11
 )
